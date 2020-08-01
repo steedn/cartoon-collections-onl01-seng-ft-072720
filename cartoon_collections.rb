@@ -19,8 +19,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.any? {
-    |name|
+  array.any? {|name|
     name.length > 4
     # binding.pry
   }
